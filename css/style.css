@@ -1,0 +1,23 @@
+body {
+
+    background-image: url(./img/back.gif);
+    background-color: #FFFFFF;
+
+}
+a:visited{
+
+    color: #0000CC;
+
+}
+
+p{
+    font-size: 18;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+img{
+
+    margin: auto;
+    display: block;
+
+}
