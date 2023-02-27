@@ -21,3 +21,61 @@ img{
     display: block;
 
 }
+
+#atomo{
+
+width: 40%;
+
+}
+
+#anim1{
+
+}
+
+#menu{
+
+    background-color: lightgray;
+    padding: 50px 0px 10px 0px;
+    display: flex; 
+
+}
+
+#conteudo{
+
+    margin: 0% 15%;
+    position: relative;
+}
+
+#nav-bar{
+    
+    margin-left: 50%;
+}
+
+#item{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+#sub-item{
+
+    
+    border: 0px solid #f00;
+    color:#FFFFFF;
+
+}
+
+#sub-item a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+#sub-item a:hover{
+
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+    transition: 0.5s;
+
+}
