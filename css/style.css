@@ -1,9 +1,6 @@
 body {
 
     background-color: #F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20;
-    text-align: justify;
     margin: 0% 0%;
 }
 a{
@@ -26,6 +23,7 @@ img{
     display: block;
     width: inherit;
     height: inherit;
+    width: 45%;
 
 }
 
@@ -53,20 +51,10 @@ button a:hover{
 }
 
 
-#atomo{
-
-    width: 40%;
-
-}
-
-#conteudo{
-
-    margin: 5% 15% 1%;
-}
-
 #nav-bar{
     
     background-color: #6E6F73;
+    font-size: 19px;
     padding: 0.3% 0%;
 
 }
@@ -76,7 +64,7 @@ button a:hover{
     display: flex;
     list-style: none;
     justify-content: space-around;
-    width: 10%;
+    width: 12%;
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
@@ -91,6 +79,7 @@ button a:hover{
 }
 #sub-item a:hover{
 
+    color: #000;
     background-color: #FFEC5C;
     border-radius: 4px;
     border-color: #000;
@@ -98,18 +87,23 @@ button a:hover{
 
 }
 
-#img-menu{
-    margin: 0%;
-    width: 10%;
-    height: 20%;
+#conteudo{
+
+    margin: 5% 15% 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#conteudo p{
+
+    line-height: 160%;
 
 }
 
 #Título{
 
     text-align: center;
-    padding: 1% 0%;
-    margin: 0%; 
 
 }
 
@@ -126,4 +120,8 @@ button a:hover{
     margin: 0%;
     text-align: center;
 
+}
+
+.paragrafos{
+    line-height: 160%;
 }
